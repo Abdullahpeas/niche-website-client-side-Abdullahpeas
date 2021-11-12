@@ -1,6 +1,7 @@
 import { Switch, Route, Link, useRouteMatch } from "react-router-dom";
 import useAuth from '../../hooks/useAuth';
 import AddAProduct from '../AddAProduct/AddAProduct';
+import AdminRoute from "../AdminRoute/AdminRoute";
 import CustomerReview from '../CustomerReview/CustomerReview';
 import MakeAdmin from '../MakeAdmin/MakeAdmin';
 import ManageAllOrders from '../ManageAllOrders/ManageAllOrders';
@@ -85,18 +86,18 @@ const Dashboard = () => {
                         <Route path={`${path}/customerReview`}>
                             <CustomerReview></CustomerReview>
                         </Route>
-                        <Route path={`${path}/makeAdmin`}>
+                        <AdminRoute path={`${path}/makeAdmin`}>
                             <MakeAdmin></MakeAdmin>
-                        </Route>
-                        <Route path={`${path}/manageAllOrders`}>
+                        </AdminRoute>
+                        <AdminRoute path={`${path}/manageAllOrders`}>
                             <ManageAllOrders></ManageAllOrders>
-                        </Route>
-                        <Route path={`${path}/addProducts`}>
+                        </AdminRoute>
+                        <AdminRoute path={`${path}/addProducts`}>
                             <AddAProduct></AddAProduct>
-                        </Route>
-                        <Route path={`${path}/manageProduct`}>
+                        </AdminRoute>
+                        <AdminRoute path={`${path}/manageProduct`}>
                             <ManageProducts></ManageProducts>
-                        </Route>
+                        </AdminRoute>
                     </Switch>
                 </div>
 

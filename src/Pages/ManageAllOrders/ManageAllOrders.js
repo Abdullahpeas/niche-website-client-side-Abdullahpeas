@@ -51,7 +51,7 @@ const ManageAllOrders = () => {
                 manageAllOrders.map(manageAllOrder => <div className="card w-75 mx-auto mt-3 rounded mb-5">
 
                     <h3>Name:{manageAllOrder?.name}</h3>
-                    <h3>Price:{manageAllOrder?.price}</h3>
+                    <h3>Price:${manageAllOrder?.price}</h3>
                     <p>Desc:{manageAllOrder?.desc}</p>
                     <p>Email:{manageAllOrder?.email}</p>
                     <p>Username:{manageAllOrder?.displayName}</p>
