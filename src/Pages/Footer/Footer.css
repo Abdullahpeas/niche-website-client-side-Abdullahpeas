@@ -1,0 +1,28 @@
+.footer{
+   background-color: lightblue;
+    margin-top: 20px;
+
+     
+   
+}
+.icon-facebook{
+    margin-right: 10px;
+    font-size: 28px;
+    margin-top: 10px;
+    color: rgb(37, 70, 97);
+}
+.icon-twitter{
+    margin-right: 10px;
+    font-size: 28px;
+    margin-top: 10px;
+    color: rgb(31, 94, 146);
+}
+.icon-instagram{
+    margin-right: 10px;
+    font-size: 28px;
+    color: rgb(155, 98, 87);
+    margin-top: 10px;
+}
+.footer-logo{
+    color: tomato;
+}
