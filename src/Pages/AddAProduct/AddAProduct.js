@@ -13,7 +13,7 @@ const AddAProduct = () => {
             .then((res) => res.json())
             .then(result => {
                 if (result.insertedId) {
-                    alert("Foods Added Successfully")
+                    alert("Drone Added Successfully")
                     reset();
                 }
             })
