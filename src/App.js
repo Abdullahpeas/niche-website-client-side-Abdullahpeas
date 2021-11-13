@@ -48,8 +48,8 @@ function App() {
             <PrivateRoute path="/detail/:id">
               <ProductsDetail></ProductsDetail>
             </PrivateRoute>
-            
-            <Route  path="*">
+
+            <Route path="*">
               <NotFound></NotFound>
             </Route>
           </Switch>
