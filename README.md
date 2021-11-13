@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live server link. [Create React App](https://drone-sell.web.app/home).
+
+server site link. [(https://desolate-chamber-46728.herokuapp.com/)]
 
 Fetures of this project: ➡You can see drone
 ➡You can order drone
