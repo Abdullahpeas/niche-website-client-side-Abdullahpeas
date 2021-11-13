@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Live server link. [Create React App](https://drone-sell.web.app/home).
+Live server link. [(https://drone-sell.web.app/home)].
 
 server site link. [(https://desolate-chamber-46728.herokuapp.com/)]
 
