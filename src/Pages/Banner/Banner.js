@@ -22,7 +22,7 @@ const Banner = () => {
                     <Carousel.Caption>
 
                         <Nav.Link as={Link} to="/moreDrone">
-                            <button className="btn btn-danger">More Drones</button></Nav.Link>
+                            <button className="btn btn-danger">More Drone</button></Nav.Link>
 
                     </Carousel.Caption>
                 </Carousel.Item>
