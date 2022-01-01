@@ -1,9 +1,12 @@
 import React from 'react';
 import { useHistory } from 'react-router';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './ExploreProduct.css';
 
 const ExploreProduct = (props) => {
+    AOS.init({ duration: 2000 });
     const { _id, name, img, desc, price } = props.exp;
 
     const history = useHistory();
@@ -16,7 +19,7 @@ const ExploreProduct = (props) => {
     }
     return (
         <div>
-            <div className="col container">
+            <div data-aos="flip-left" className="col container">
                 <div className="card explore-style">
                     <img src={img} height='300px' alt="..." />
                     <div className="card-body">

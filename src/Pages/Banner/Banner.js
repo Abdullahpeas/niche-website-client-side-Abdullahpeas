@@ -22,7 +22,7 @@ const Banner = () => {
                     <Carousel.Caption>
 
                         <Nav.Link as={Link} to="/moreDrone">
-                            <button className="btn btn-danger">More </button></Nav.Link>
+                            <button className="btn btn-danger">Explore More</button></Nav.Link>
 
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -35,7 +35,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <Nav.Link as={Link} to="/moreDrone">
-                            <button className="btn btn-danger">More Drone</button></Nav.Link>
+                            <button className="btn btn-danger">Explore More</button></Nav.Link>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -47,7 +47,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <Nav.Link as={Link} to="/moreDrone">
-                            <button className="btn btn-danger">More Drone</button></Nav.Link>
+                            <button className="btn btn-danger">Explore More</button></Nav.Link>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

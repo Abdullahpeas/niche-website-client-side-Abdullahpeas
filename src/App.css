@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   overflow: hidden;
+  background:linear-gradient(to top, #c2e59c, #64b3f4);
 }
 .body{
   overflow-x: hidden;

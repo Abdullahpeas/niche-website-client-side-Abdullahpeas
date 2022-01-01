@@ -10,20 +10,20 @@ const Header = () => {
     return (
         <div>
 
-            <Navbar variant="light" bg="light" collapseOnSelect expand="lg" sticky="top">
+            <Navbar variant="light" bg="dark" collapseOnSelect expand="lg" sticky="top">
                 <Container>
 
                     <Navbar.Brand >
-                        <h4>Flying <span className="logo">Zone</span></h4>
+                        <h4 class="text-white">Flying <span className="logo">Zone</span></h4>
                     </Navbar.Brand>
 
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/moreDrone">More Drone</Nav.Link>
+                        <Nav.Link style={{ color: "white" }} as={Link} to="/home">Home</Nav.Link>
+                        <Nav.Link style={{ color: "white" }} as={Link} to="/moreDrone">Explore More</Nav.Link>
 
                         {
-                            user?.email && <Nav.Link as={Link} to="/dashboard">Dashboard</Nav.Link>
+                            user?.email && <Nav.Link style={{ color: "white" }} as={Link} to="/dashboard">Dashboard</Nav.Link>
                         }
 
                         {
@@ -31,8 +31,8 @@ const Header = () => {
                         }
 
                         {user?.email ?
-                            <button className="btn btn-danger" onClick={handleLogout}>Log out</button> :
-                            <Nav.Link as={Link} to="/register">Sing up</Nav.Link>}
+                            <button className="btn btn-danger text-center" onClick={handleLogout} >Log out</button> :
+                            <Nav.Link style={{ color: "white" }} as={Link} to="/register">Sing up</Nav.Link>}
 
 
 

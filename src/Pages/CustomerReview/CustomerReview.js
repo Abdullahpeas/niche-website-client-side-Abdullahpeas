@@ -33,6 +33,7 @@ const CustomerReview = () => {
 
                 {user?.displayName && <input className="d-flex m-3 mx-auto" defaultValue={user?.displayName} {...register("displayName", { required: true })} />}
 
+
                 <input type="number" placeholder='type number 0-5' className="d-flex m-3 mx-auto"  {...register("rating", { required: true })} />
 
                 <textarea className="d-flex m-3 mx-auto" placeholder='Give your feedback'  {...register("reviews", { required: true })} />

@@ -1,11 +1,14 @@
 import React from 'react';
 import { useHistory } from 'react-router';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './Product.css';
 
 
 
 const Product = (props) => {
+    AOS.init({ duration: 2000 });
     const { _id, name, img, desc, price } = props.product;
 
     const history = useHistory();
@@ -19,7 +22,7 @@ const Product = (props) => {
 
     return (
         <div>
-            <div className="card card-style mx-auto w-100" style={{ width: " 18rem" }}>
+            <div data-aos="zoom-in-down" className="card card-style mx-auto w-100" style={{ width: " 18rem" }}>
                 <img src={img} className="card-img-top" height="270" alt="..." />
                 <div className="card-body">
                     <h5 className="card-title">{name}</h5>

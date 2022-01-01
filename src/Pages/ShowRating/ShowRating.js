@@ -2,13 +2,12 @@ import React from 'react';
 import Rating from 'react-rating';
 import './ShowRating.css';
 const ShowRating = (props) => {
-    const { displayName, email, reviews, rating } = props.review;
+    const { displayName, email, reviews, rating, } = props.review;
     return (
         <div>
             <div className="col">
                 <div className="card mt-3 custom-style">
                     <div className="card-body">
-
                         <h5 className="card-title">{displayName}</h5>
                         <h5 className="card-title">{email}</h5>
                         <h5 className="card-title">feedback:{reviews}</h5>

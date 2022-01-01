@@ -1,11 +1,14 @@
 import React from 'react';
 import image from '../../images/extrasection/extra.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './DroneMemories.css';
 const DroneMemories = () => {
+    AOS.init({ duration: 2000 });
     return (
         <>
-            <div className="row mt-5 container mx-auto">
-                <h2>Get special memories with <span className="dron-spane">Drone</span></h2>
+            <div data-aos="fade-right" className="row mt-5 container mx-auto">
+                <h2 className='text-black'>Get special memories with <span className="dron-spane">Drone</span></h2>
                 <div className="col-md-6 mt-5">
                     <img className="img-fluid memories-img" src={image} alt="" />
                 </div>

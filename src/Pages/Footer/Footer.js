@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="footer">
                 <div className="row">
                     <div className="col-md-4">
-                        <h2 className="mt-5">Flying <span className="footer-logo">Zone</span></h2>
+                        <h2 className="mt-5 text-black">Flying <span className="footer-logo">Zone</span></h2>
                     </div>
 
 
